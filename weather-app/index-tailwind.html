@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Weather App</title>
+  </head>
+
+  <body class="m-0 bg-gray-100 font-mono">
+
+    <div
+      class="max-w-[600px] mx-auto mt-12 bg-white shadow-lg rounded-md p-5 text-center"
+    >
+      <h1 class="text-3xl font-bold mb-6">Weather App</h1>
+
+      <!-- Form -->
+      <form
+        action="#"
+        class="flex flex-col md:flex-row justify-center items-center gap-3 mb-5"
+      >
+        <input
+          type="text"
+          id="city-input"
+          placeholder="Enter your City:"
+          class="w-full md:w-[60%] px-4 py-2 text-lg outline-none border rounded-md"
+        />
+
+        <input
+          type="submit"
+          value="Get Weather"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 text-lg rounded-md cursor-pointer transition duration-300"
+        />
+      </form>
+
+      <!-- Weather Data -->
+      <div id="weather-data">
+
+        <!-- Icon -->
+        <div class="icon flex justify-center mb-4">
+          <!-- JS will insert image here -->
+        </div>
+
+        <!-- Temperature -->
+        <div
+          class="temperature text-6xl font-bold my-5"
+        ></div>
+
+        <!-- Description -->
+        <div
+          class="description text-2xl mb-5"
+        ></div>
+
+        <!-- Details -->
+        <div
+          class="details flex flex-col md:flex-row gap-3"
+        >
+          <!-- JS will insert details here -->
+
+          <!-- Example -->
+          <!--
+          <div class="flex-1 bg-gray-100 rounded-md p-5 text-center min-h-[45px]">
+            Humidity: 70%
+          </div>
+          -->
+        </div>
+
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
