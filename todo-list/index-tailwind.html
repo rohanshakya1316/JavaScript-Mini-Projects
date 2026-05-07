@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+
+  <body class="bg-gray-100 min-h-screen flex flex-col items-center pt-16">
+
+    <!-- Form -->
+    <form class="form w-full max-w-md mb-6">
+      <input
+        type="text"
+        class="input w-full px-4 py-3 border rounded-lg outline-none focus:ring-2 focus:ring-blue-400"
+        placeholder="Enter your Task"
+        autocomplete="off"
+      />
+    </form>
+
+    <!-- List -->
+    <ul class="list w-full max-w-md space-y-3"></ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>
