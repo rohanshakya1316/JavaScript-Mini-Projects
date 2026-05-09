@@ -11,3 +11,5 @@
 4. To-do-List --> Simple simulation for todo list
 
 5. Tip-Calculator --> Taking Input as Bill amount and tip percent, it calculates total bill amount.
+
+6. Slider --> Sliding the various elements like testimonials simulation. 
