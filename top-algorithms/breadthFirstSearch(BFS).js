@@ -1,3 +1,5 @@
+// * A traversal algorithm that visits all the vertices of a graph in breadthward margin.
+
 const bfs = (graph, start) => {
   const visited = new Set();
   const queue = [start];
