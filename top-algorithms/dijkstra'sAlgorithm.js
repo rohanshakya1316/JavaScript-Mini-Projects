@@ -1,3 +1,5 @@
+// * A graph search algorithm that finds the shortest path between two nodes in a weighted graph. 
+
 const dijkstra = (graph, start) => {
     const distances = {};
     const visited = new Set();
