@@ -13,3 +13,5 @@
 5. Tip-Calculator --> Taking Input as Bill amount and tip percent, it calculates total bill amount.
 
 6. Slider --> Sliding the various elements like testimonials simulation. 
+
+7. Top-Algorithms --> BinarySearch, LinearSearch, Dijkstra's Algorithm, DFS, BFS, Fibonacci Series, KnapSack Problem, BubbleSort, MergeSort, QuickSort 
