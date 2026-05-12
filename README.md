@@ -15,3 +15,5 @@
 6. Slider --> Sliding the various elements like testimonials simulation. 
 
 7. Top-Algorithms --> BinarySearch, LinearSearch, Dijkstra's Algorithm, DFS, BFS, Fibonacci Series, KnapSack Problem, BubbleSort, MergeSort, QuickSort 
+
+8. Temperature-Conversion --> Converting Temperature among Celsius, Fahrenheit, and Kelvin.
