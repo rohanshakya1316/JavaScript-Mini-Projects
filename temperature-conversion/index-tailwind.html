@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss">
+      .temperature-container {
+        @apply w-full p-4 font-bold text-lg grid grid-cols-2;
+      }
+
+      .input-temperature {
+        @apply w-[250px] font-[Courier] p-2 outline-none bg-[rgba(255,255,255,0.3)] border-[rgba(255,255,255,0.5)] text-[rgb(3,3,3)] text-[1rem] placeholder:text-[rgb(112,112,112)];
+      }
+    </style>
+
+    <title>Temperature Converter</title>
+  </head>
+
+  <body
+    class="flex justify-center items-center font-[Courier] text-[rgb(194,252,101)] min-h-screen bg-gradient-to-l from-[rgb(117,122,117)] to-[rgb(41,156,194)]"
+  >
+    <div
+      class="bg-[rgba(255, 255, 255, 0.1) p-6 shadow-[0_4px_10px_rgba(0,0,0,0.5)] rounded-xl w-4/5 max-w-[600px] min-w-[300px] flex flex-col items-center container"
+    >
+      <h1 class="text-3xl font-bold heading">Temperature Converter</h1>
+
+      <div class="temperature-container">
+        <label for="celsius">Celsius:</label>
+        <input
+          type="number"
+          name="celsius"
+          id="celsius"
+          placeholder="Enter Temperature.."
+          class="input-temperature"
+          onchange="convertTemperature(event)"
+        />
+      </div>
+
+      <div class="temperature-container">
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input
+          type="number"
+          name="fahrenheit"
+          id="fahrenheit"
+          placeholder="Enter Temperature.."
+          class="input-temperature"
+          onchange="convertTemperature(event)"
+        />
+      </div>
+
+      <div class="temperature-container">
+        <label for="kelvin">Kelvin:</label>
+        <input
+          type="number"
+          name="kelvin"
+          id="kelvin"
+          placeholder="Enter Temperature.."
+          class="input-temperature"
+          onchange="convertTemperature(event)"
+        />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
