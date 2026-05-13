@@ -17,3 +17,5 @@
 7. Top-Algorithms --> BinarySearch, LinearSearch, Dijkstra's Algorithm, DFS, BFS, Fibonacci Series, KnapSack Problem, BubbleSort, MergeSort, QuickSort 
 
 8. Temperature-Conversion --> Converting Temperature among Celsius, Fahrenheit, and Kelvin.
+
+9. Tabs-Switch --> According to the button click in the tabs, the content gets changed. 
