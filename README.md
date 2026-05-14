@@ -19,3 +19,5 @@
 8. Temperature-Conversion --> Converting Temperature among Celsius, Fahrenheit, and Kelvin.
 
 9. Tabs-Switch --> According to the button click in the tabs, the content gets changed. 
+
+10. Stopwatch  --> Demonstration of StopWatch 
