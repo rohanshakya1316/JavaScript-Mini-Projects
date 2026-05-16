@@ -21,3 +21,5 @@
 9. Tabs-Switch --> According to the button click in the tabs, the content gets changed. 
 
 10. Stopwatch  --> Demonstration of StopWatch 
+
+11. Sticky NavBar --> Changing style of navbar when scrolling the website.
