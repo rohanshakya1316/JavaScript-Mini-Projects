@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Stop Watch</title>
+  </head>
+  <body class="flex flex-col justify-center items-center overflow-hidden min-h-screen bg-[#f0f0f0] font-[Courier]">
+    <div id="timer" class="font-semibold text-[#666566] [text-shadow:2px_2px_rgb(46,145,103)] w-[600px] text-center mx-auto my-16 text-9xl">00:00:00</div>
+
+    <div id="buttons" class="flex justify-center gap-4">
+      <button id="start" class="bg-[rgb(23,148,142)] text-white border-none text-3xl font-bold px-12 py-6 m-4 rounded-3xl cursor-pointer shadow-[2px_2px_10px_rgba(0,0,0,0.3)] transition-all duration-300 ease hover:bg-[#6fcfcb] hover:shadow-[2px_2px_10px_rgba(0,0,0,0.5)] disabled:opacity-50 disabled:cursor-default">Start</button>
+
+      <button id="stop" class="bg-[rgb(23,148,142)] text-white border-none text-3xl font-bold px-12 py-6 m-4 rounded-3xl cursor-pointer shadow-[2px_2px_10px_rgba(0,0,0,0.3)] transition-all duration-300 ease hover:bg-[#6fcfcb] hover:shadow-[2px_2px_10px_rgba(0,0,0,0.5)] disabled:opacity-50 disabled:cursor-default">Stop</button>
+
+      <button id="reset" class="bg-[rgb(23,148,142)] text-white border-none text-3xl font-bold px-12 py-6 m-4 rounded-3xl cursor-pointer shadow-[2px_2px_10px_rgba(0,0,0,0.3)] transition-all duration-300 ease hover:bg-[#6fcfcb] hover:shadow-[2px_2px_10px_rgba(0,0,0,0.5)] disabled:opacity-50 disabled:cursor-default">Reset</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
