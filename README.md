@@ -23,3 +23,5 @@
 10. Stopwatch  --> Demonstration of StopWatch 
 
 11. Sticky NavBar --> Changing style of navbar when scrolling the website.
+
+12. Step Progress Bar --> Progress Bar Demonstartion. 
