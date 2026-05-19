@@ -25,3 +25,5 @@
 11. Sticky NavBar --> Changing style of navbar when scrolling the website.
 
 12. Step Progress Bar --> Progress Bar Demonstartion. 
+
+13. Social Media Selector Menu --> Demonstration of social media selector menu.
