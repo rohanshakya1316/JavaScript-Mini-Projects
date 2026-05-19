@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Social Media Selector Menu</title>
+    <style type="text/tailwindcss">
+      .social-lists li {
+          @apply flex items-center m-4 p-4 cursor-pointer transition-[padding] duration-300 ease-linear hover:bg-gray-500 hover:rounded-md hover:pl-3
+      }
+
+      .social-lists li .fab {
+        @apply mx-3 my-0
+      }
+
+      .rotate .fas {
+        @apply rotate-180 inline-block
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-cyan-600 from-25% to-green-400 to-80% flex flex-col items-center h-screen justify-center font-[Courier]"
+  >
+    <div
+      class="bg-gray-300 w-[300px] opacity-50 rounded-md flex items-center justify-between p-4 m-4 cursor-pointer menu"
+    >
+      <p class="mx-3 my-0 flex items-center">Social Media Selector</p>
+      <i class="transition-[transform] duration-200 fas fa-angle-down"></i>
+    </div>
+    <ul
+      class="bg-gray-300 w-[300px] p-4 opacity-50 rounded-md social-lists hide [&.hide]:hidden"
+    >
+      <li>
+        <i class="fab fa-facebook"></i>
+        <p>Facebook</p>
+      </li>
+      <li>
+        <i class="fab fa-youtube"></i>
+        <p>Youtube</p>
+      </li>
+      <li>
+        <i class="fab fa-twitter"></i>
+        <p>Twitter</p>
+      </li>
+      <li>
+        <i class="fab fa-instagram"></i>
+        <p>Instagram</p>
+      </li>
+      <li>
+        <i class="fab fa-linkedin"></i>
+        <p>LinkedIn</p>
+      </li>
+    </ul>
+    <script src="index.js"></script>
+  </body>
+</html>
+
