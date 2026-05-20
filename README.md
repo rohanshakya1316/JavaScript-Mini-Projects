@@ -27,3 +27,5 @@
 12. Step Progress Bar --> Progress Bar Demonstartion. 
 
 13. Social Media Selector Menu --> Demonstration of social media selector menu.
+
+14. Side Bar (Hamburger)  --> Demonstration of sidebar using hamburger symbol.
