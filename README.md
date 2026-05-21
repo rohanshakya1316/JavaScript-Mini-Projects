@@ -29,3 +29,5 @@
 13. Social Media Selector Menu --> Demonstration of social media selector menu.
 
 14. Side Bar (Hamburger)  --> Demonstration of sidebar using hamburger symbol.
+
+15. Image Gallery Rotating Simulation --> Images are rotating in the gallery. 
