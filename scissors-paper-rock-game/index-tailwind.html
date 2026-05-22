@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        p {
+            @apply text-2xl font-normal text-center mb-2
+        }
+
+        button {
+            @apply text-6xl mx-2 my-0 p-2 cursor-pointer rounded-lg transition-all duration-300 ease-in-out hover:opacity-70
+        }
+    </style>
     <title>Scissors, Paper, Rock Game</title>
   </head>
-  <body>
-    <h1>Scissors Paper Rock Game</h1>
+  <body class="bg-gray-300 font-mono">
+    <h1 class="text-4xl text-center pt-20">Scissors Paper Rock Game</h1>
     <p>Choose your move:</p>
 
-    <div class="buttons">
-      <button id="scissors">&#x270c;</button>
-      <button id="paper">&#x1f590;</button>
-      <button id="rock">&#x1F44A;</button>
+    <div class="flex justify-center buttons">
+      <button class="bg-green-400" id="scissors">&#x270c;</button>
+      <button class="bg-blue-400" id="paper">&#x1f590;</button>
+      <button class="bg-red-400" id="rock">&#x1F44A;</button>
     </div>
 
-    <p id="result"></p>
-    <p id="scores">
-      Your Score: <span id="user-score">0</span> Bot Score:
-      <span id="bot-score">0</span>
+    <p class="mt-8" id="result"></p>
+    <p class="mt-8" id="scores">
+      Your Score: <span class="text-cyan-600" id="user-score">0</span> Bot Score:
+      <span class="text-red-700" id="bot-score">0</span>
     </p>
 
     <script src="index.js"></script>
