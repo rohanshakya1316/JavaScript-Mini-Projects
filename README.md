@@ -31,3 +31,5 @@
 14. Side Bar (Hamburger)  --> Demonstration of sidebar using hamburger symbol.
 
 15. Image Gallery Rotating Simulation --> Images are rotating in the gallery. 
+
+16. Recipe Book --> Using the API connected to Foodista, generated the dynamic list of recipes fetching data from the API. 
