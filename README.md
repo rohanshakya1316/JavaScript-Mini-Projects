@@ -33,3 +33,5 @@
 15. Image Gallery Rotating Simulation --> Images are rotating in the gallery. 
 
 16. Recipe Book --> Using the API connected to Foodista, generated the dynamic list of recipes fetching data from the API. 
+
+17. Realtime Character Counter --> Counts the character from the textarea showing the remaining and total character counts using the `keyup` event of JavaScript.
