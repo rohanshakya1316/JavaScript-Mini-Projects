@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Random Quote Generator</title>
+  </head>
+
+  <body
+    class="flex min-h-screen justify-center items-center font-mono bg-gradient-to-bl from-green-400 to-blue-400"
+  >
+    <div
+      class="bg-white/10 shadow-[0_6px_10px_rgba(0,0,0,0.3)] p-8 rounded-[15px] w-[90%] m-3 text-center"
+    >
+      <h1 class="text-[35px] font-bold text-red-500 p-4">
+        Random Quote Generator
+      </h1>
+
+      <h2 class="text-[30px] font-semibold">
+        <i class="fa-solid fa-quote-left"></i>
+        <span id="quote">Quote</span>
+        <i class="fa-solid fa-quote-right"></i>
+      </h2>
+
+      <p class="text-[25px] m-[10px] italic" id="author">~ Author</p>
+
+      <button
+        id="btn"
+        class="text-[18px] rounded-[5px] cursor-pointer p-[10px] mt-[15px] bg-white/30 border border-white/60 uppercase w-[300px] hover:bg-white/60 hover:shadow-[0_4px_4px_rgba(0,0,0,0.3)] transition-all duration-300 ease-in-out hover:text-green-600"
+      >
+        Get a quote
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
