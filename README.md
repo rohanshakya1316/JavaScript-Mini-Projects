@@ -37,3 +37,5 @@
 17. Realtime Character Counter --> Counts the character from the textarea showing the remaining and total character counts using the `keyup` event of JavaScript.
 
 18. Random Quote Generator --> Using the API for random quote using the `asyn/await` with `fetch()`.
+
+19. Random Photos --> Generate Random Photos
