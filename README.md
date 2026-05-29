@@ -39,3 +39,5 @@
 18. Random Quote Generator --> Using the API for random quote using the `asyn/await` with `fetch()`.
 
 19. Random Photos --> Generate Random Photos
+
+20. Scissor Paper Rock Game --> Simulation of Rock Paper Scissors Game using `random` module.
