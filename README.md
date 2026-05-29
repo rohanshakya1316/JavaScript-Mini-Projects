@@ -41,3 +41,5 @@
 19. Random Photos --> Generate Random Photos
 
 20. Scissor Paper Rock Game --> Simulation of Rock Paper Scissors Game using `random` module.
+
+21. Random Passkey Generator --> Generating Random 8 character Passkey with all alphanumeric combination with special characters using `random` module.
