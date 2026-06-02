@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Random Emoji Generation</title>
+  </head>
+  <body class="flex flex-col bg-red-300 justify-center h-screen items-center font-mono">
+    <h2 class="text-4xl text-blue-100 m-4 p-4">Random Emoji</h2>
+    <div class="text-center">
+      <button class="mb-4 text-5xl border-none bg-[rgb(255,255,255,0.2)] rounded-sm p-4 grayscale transition-all duration-200 ease-in-out cursor-pointer hover:grayscale-0" id="btn">Click</button>
+      <p class="emoji-name font-bold text-blue-700" id="emoji-name">Emoji Name</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
