@@ -45,3 +45,5 @@
 21. Random Passkey Generator --> Generating Random 8 character Passkey with all alphanumeric combination with special characters using `random` module.
 
 22. Random Emoji Generator --> Genrating Random Emoji using API call and manually using objects.
+
+23. Random Color Generator --> Generates Random Color using `random` module.
