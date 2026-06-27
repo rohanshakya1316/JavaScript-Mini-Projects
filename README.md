@@ -47,3 +47,5 @@
 22. Random Emoji Generator --> Genrating Random Emoji using API call and manually using objects.
 
 23. Random Color Generator --> Generates Random Color using `random` module.
+
+24. Q & A Section --> Accordion like components for questions and answers. 
